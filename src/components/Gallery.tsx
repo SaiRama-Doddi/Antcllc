@@ -3,6 +3,15 @@ import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 
 const galleryImages = [
   '/1.jpeg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603371/WhatsApp_Image_2025-12-31_at_10.34.31_agqnk6.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603371/WhatsApp_Image_2025-12-31_at_10.34.17_yqqijq.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603371/WhatsApp_Image_2025-12-31_at_10.35.58_i4ga77.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.37.31_1_os4j5e.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.38.34_p0grkd.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.37.31_2_e6gkwg.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.38.07_1_otmukj.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.38.07_uycchr.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767603372/WhatsApp_Image_2025-12-31_at_10.37.31_szr6f3.jpg',
   'http://antcllc.com/gallery/images/compl8_th.jpg',
   '/2.jpeg',
   '/3.jpeg',
