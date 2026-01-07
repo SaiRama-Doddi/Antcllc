@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Award, Linkedin, Facebook, Twitter, Instagram } fr
 import { navigationItems } from '../types/navigation';
 
 export default function Footer() {
-  const whatsappNumber = '1234567890';
+  const whatsappNumber = '24813345';
 
   return (
     <footer className="bg-black border-t border-yellow-500/20">
