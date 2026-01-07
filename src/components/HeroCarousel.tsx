@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const heroImages = [
-  'http://antcllc.com/banner/images/1.JPG',
-  'http://antcllc.com/banner/images/2.JPG',
-  'http://antcllc.com/banner/images/3.JPG',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767787622/1_qmlqls.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767787623/2_uuxtae.jpg',
+  'https://res.cloudinary.com/dtuqzgucw/image/upload/v1767787624/3_bgwx4t.jpg',
 
 ];
 
