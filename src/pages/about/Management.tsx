@@ -31,31 +31,24 @@ export default function Management() {
 
           {/* Main Content */}
           <main className="flex-1">
-            <div className="bg-gradient-to-br from-gray-900 to-black border border-yellow-500/20 rounded-xl overflow-hidden">
+            <div className=" rounded-xl overflow-hidden">
 
               {/* BIG IMAGE SECTION */}
              {/* BIG IMAGE SECTION */}
-<div className="relative h-[600px] md:h-[1500px] lg:h-[1500px]">
-
+<div className="relative h-[600px] md:h-[800px] lg:h-[800px] overflow-hidden">
   <img
-    src="/chart.jpg"
+    src="https://res.cloudinary.com/dtuqzgucw/image/upload/v1767786666/Picture1_kz1mqz.png"
     alt="Management Team"
     className="
-      w-full h-full object-cover
-      brightness-110 contrast-110 saturate-110
+      w-54 h-25 object-cover
+      brightness-110 contrast-110 saturate-110 rounded-xl
     "
   />
 
-  {/* Softer gradient overlay (NOT full black) */}
-  <div className="
-    absolute inset-0
-    bg-gradient-to-t
-    from-black/40
-    via-black/20
-    to-transparent
-  " />
+  {/* Gradient Overlay */}
 
 </div>
+
 
 
            
