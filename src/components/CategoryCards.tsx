@@ -24,7 +24,7 @@ const categories = [
     description: 'View our gallery, news and events',
    link: '/contact/quality',
     gradient: 'from-amber-400 to-orange-500',
-       image: "/contact",
+       image: "/home.jpeg",
   },
   {
     icon: Users,
