@@ -25,7 +25,7 @@ export default function Profile() {
           
           {/* Sidebar */}
           <Sidebar title="About Us" items={aboutItems}  isOpen={sidebarOpen}
-  onClose={() => setSidebarOpen(false)}/>
+          onClose={() => setSidebarOpen(false)}/>
 
           {/* Main Content */}
           <main className="flex-1">

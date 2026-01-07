@@ -30,12 +30,7 @@ export default function ChairmanMessage() {
               </h1>
 
               <div className="mb-8">
-                <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Chairman"
-                  className="w-64 h-64 object-cover rounded-xl float-left mr-8 mb-4 border-4 border-yellow-500/30"
-                />
-
+                
                 <div className="text-gray-300 space-y-6 leading-relaxed text-lg">
                   <p>
                     Dear Stakeholders, Partners, and Team Members,
