@@ -50,11 +50,7 @@ export default function ChairmanMessage() {
                   <p>
                     I want to express my heartfelt thanks to our dedicated team, our valued clients, and our partners who have been instrumental in our success. Together, we will continue to build a better tomorrow.
                   </p>
-                  <p className="mt-8">
-                    <span className="text-yellow-500 font-semibold text-xl">With warm regards,</span><br />
-                    <span className="text-white font-bold text-2xl">John Anderson</span><br />
-                    <span className="text-gray-400">Chairman, ANTCLLC</span>
-                  </p>
+                 
                 </div>
               </div>
             </div>
