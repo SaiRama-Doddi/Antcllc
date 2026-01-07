@@ -98,21 +98,13 @@ Al Wadi Al Kabir, Sultanate Of Oman
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <div>
-                  
-                </div>
+                
                 <Phone className="w-5 h-5 text-yellow-500 flex-shrink-0" />
                 <a href="tel:+24813345" className="text-gray-400 hover:text-yellow-500 transition-colors text-sm">
-                   24813345
+                   24813345   <br/> 24812856
                 </a>
-                <Phone className="w-5 h-5 text-yellow-500 flex-shrink-0" />
-                <a href="tel:+24813345" className="text-gray-400 hover:text-yellow-500 transition-colors text-sm">
-                   24813345
-                </a>
-                <Phone className="w-5 h-5 text-yellow-500 flex-shrink-0" />
-                <a href="tel:+24817320" className="text-gray-400 hover:text-yellow-500 transition-colors text-sm">
-                  24817320
-                </a>
+               
+              
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-yellow-500 flex-shrink-0" />

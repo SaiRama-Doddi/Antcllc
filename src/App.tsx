@@ -12,7 +12,13 @@ import NewsEvents from './pages/media/NewsEvents';
 import GalleryPage from './pages/media/GalleryPage';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
+import ContactGroups from './pages/contact/OurGroups';
+import BusinessConcepts from './pages/contact/BusinessConcepts';
+import QualitySafety from './pages/contact/QualitySaftey';
+
 import ScrollToTop from './components/ScrollToTop';
+import ContactInfo from './pages/contact/ContactInfo';
+import ContactForm from './pages/contact/ContactForm';
 
 function App() {
   return (
@@ -31,7 +37,22 @@ function App() {
           <Route path="/media/news-events" element={<NewsEvents />} />
           <Route path="/media/gallery" element={<GalleryPage />} />
           <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />}>
+  {/* DEFAULT CONTACT PAGE */}
+  <Route
+    index
+    element={
+      <div className="grid lg:grid-cols-2 gap-12">
+        <ContactInfo />
+        <ContactForm />
+      </div>
+    }
+  />
+
+  <Route path="groups" element={<ContactGroups />} />
+  <Route path="business" element={<BusinessConcepts />} />
+  <Route path="quality" element={<QualitySafety />} />
+</Route>
         </Routes>
         <Footer />
       </div>
