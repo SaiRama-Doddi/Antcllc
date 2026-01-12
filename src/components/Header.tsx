@@ -7,7 +7,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleIsoClick = () => {
-    window.open("/iso-certificate.pdf", "_blank");
+    window.open("/iso.pdf", "_blank");
   };
 
   return (
