@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Award, Linkedin, Facebook, Twitter, Instagram } from 'lucide-react';
 import { navigationItems } from '../types/navigation';
+import isoPdf from '../assets/ANTC ISO.pdf';
 
 export default function Footer() {
   const whatsappNumber = '24813345';
@@ -10,7 +11,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-3 mb-6">
+            <button
+              onClick={() => window.open(isoPdf, '_blank')}
+              className="flex items-center space-x-3 mb-6 text-left group cursor-pointer"
+            >
               <div className="bg-gradient-to-br from-yellow-400 to-yellow-600 p-2 rounded-full">
                 <Award className="w-6 h-6 text-black" />
               </div>
@@ -18,7 +22,7 @@ export default function Footer() {
                 <div className="text-xl font-bold text-yellow-500">ANTCLLC</div>
                 <div className="text-xs text-gray-400">ISO Certified</div>
               </div>
-            </div>
+            </button>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Leading construction and infrastructure development company committed to excellence, innovation, and sustainable growth.
             </p>

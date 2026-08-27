@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Menu, X, Award } from "lucide-react";
 import { navigationItems } from "../types/navigation";
+import isoPdf from "../assets/ANTC ISO.pdf";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleIsoClick = () => {
-    window.open("/iso.pdf", "_blank");
+    window.open(isoPdf, "_blank");
   };
 
   return (
