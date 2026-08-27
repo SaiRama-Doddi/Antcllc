@@ -31,11 +31,13 @@ export default function Sidebar({
       {/* 🔹 Sidebar */}
       <aside
         className={`
-          fixed lg:static top-0 left-0 z-50
-          h-full w-80
+          fixed lg:sticky top-0 lg:top-28 left-0 z-50 lg:z-30
+          h-full lg:h-auto lg:max-h-[calc(100vh-8rem)]
+          w-80 lg:w-72 xl:w-80 lg:self-start lg:flex-shrink-0
           bg-gradient-to-br from-gray-900 to-black
-          border-r border-yellow-500/20
+          border-r lg:border border-yellow-500/20 lg:rounded-xl
           p-6
+          overflow-y-auto
           transform transition-transform duration-300
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
           lg:translate-x-0
