@@ -18,7 +18,6 @@ export const navigationItems: NavItem[] = [
     label: 'About Us',
     path: '/about',
     subItems: [
-      { label: 'Chairman Message', path: '/about/chairman-message' },
       { label: 'Profile', path: '/about/profile' },
       { label: 'Our Vision', path: '/about/our-vision' },
       { label: 'Management', path: '/about/management' },

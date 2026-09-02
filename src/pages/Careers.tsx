@@ -1,55 +1,4 @@
-import { Briefcase, MapPin, Clock, ArrowRight } from 'lucide-react';
-
-const jobOpenings = [
-  {
-    title: 'Senior Civil Engineer',
-    department: 'Engineering',
-    location: 'Corporate Office',
-    type: 'Full-time',
-    description: 'Lead major infrastructure projects with expertise in structural design and project management.',
-    requirements: ['10+ years experience', "Bachelor's in Civil Engineering", 'PE License preferred'],
-  },
-  {
-    title: 'Project Manager',
-    department: 'Operations',
-    location: 'Multiple Locations',
-    type: 'Full-time',
-    description: 'Oversee construction projects from planning to completion, ensuring quality and timeline adherence.',
-    requirements: ['8+ years in construction', 'PMP Certification', 'Strong leadership skills'],
-  },
-  {
-    title: 'Architect',
-    department: 'Design',
-    location: 'Design Center',
-    type: 'Full-time',
-    description: 'Create innovative architectural designs for commercial and residential projects.',
-    requirements: ['5+ years experience', "Master's in Architecture", 'LEED certification preferred'],
-  },
-  {
-    title: 'Safety Officer',
-    department: 'Safety & Compliance',
-    location: 'Site-based',
-    type: 'Full-time',
-    description: 'Ensure workplace safety and compliance with all regulatory requirements.',
-    requirements: ['CSP or CHST certification', '3+ years experience', 'Strong communication skills'],
-  },
-  {
-    title: 'Business Development Manager',
-    department: 'Sales',
-    location: 'Corporate Office',
-    type: 'Full-time',
-    description: 'Drive business growth through strategic partnerships and new client acquisition.',
-    requirements: ['7+ years in construction industry', 'MBA preferred', 'Proven track record'],
-  },
-  {
-    title: 'Construction Intern',
-    department: 'Operations',
-    location: 'Various Sites',
-    type: 'Internship',
-    description: 'Gain hands-on experience in construction management and site operations.',
-    requirements: ['Pursuing engineering degree', 'Strong academic record', 'Eager to learn'],
-  },
-];
+import { Briefcase, Mail } from 'lucide-react';
 
 export default function Careers() {
   return (
@@ -98,49 +47,23 @@ export default function Careers() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-gray-900 to-black border border-yellow-500/20 rounded-xl p-8 lg:p-12">
-          <h2 className="text-3xl font-bold text-white mb-8">
-            Current <span className="text-yellow-500">Openings</span>
-          </h2>
-
-          <div className="space-y-6">
-            {jobOpenings.map((job, index) => (
-              <div key={index} className="bg-black/40 border border-yellow-500/20 rounded-xl p-6 hover:border-yellow-500/50 transition-all">
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                  <div>
-                    <h3 className="text-2xl font-bold text-white mb-2">{job.title}</h3>
-                    <div className="flex flex-wrap gap-4 text-gray-400 text-sm">
-                      <span className="flex items-center">
-                        <Briefcase className="w-4 h-4 text-yellow-500 mr-2" />
-                        {job.department}
-                      </span>
-                      <span className="flex items-center">
-                        <MapPin className="w-4 h-4 text-yellow-500 mr-2" />
-                        {job.location}
-                      </span>
-                      <span className="flex items-center">
-                        <Clock className="w-4 h-4 text-yellow-500 mr-2" />
-                        {job.type}
-                      </span>
-                    </div>
-                  </div>
-                  <button className="mt-4 md:mt-0 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-6 py-2 rounded-lg transition-all flex items-center">
-                    Apply Now
-                    <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
-                </div>
-                <p className="text-gray-400 mb-4">{job.description}</p>
-                <div>
-                  <p className="text-yellow-500 font-semibold mb-2">Requirements:</p>
-                  <ul className="list-disc list-inside text-gray-400 space-y-1">
-                    {job.requirements.map((req, idx) => (
-                      <li key={idx}>{req}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ))}
+        <div className="bg-gradient-to-br from-gray-900 to-black border border-yellow-500/20 rounded-xl p-8 lg:p-12 text-center">
+          <div className="bg-yellow-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Mail className="w-8 h-8 text-yellow-500" />
           </div>
+          <h2 className="text-3xl font-bold text-white mb-4">
+            Join Our <span className="text-yellow-500">Talent Pool</span>
+          </h2>
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
+            There are currently no active job openings listed. However, we are always interested in meeting talented professionals. Send your CV to us and we'll reach out when a relevant opportunity arises.
+          </p>
+          <a
+            href="mailto:info@antcllc.com"
+            className="inline-flex items-center bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3 rounded-lg transition-all text-lg shadow-lg hover:shadow-yellow-500/20"
+          >
+            <Mail className="w-5 h-5 mr-3" />
+            Send Your CV / Resume
+          </a>
         </div>
       </div>
     </div>

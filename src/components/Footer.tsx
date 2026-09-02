@@ -62,8 +62,8 @@ export default function Footer() {
             <h3 className="text-yellow-500 font-semibold mb-4 text-lg">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about/chairman-message" className="text-gray-400 hover:text-yellow-500 transition-colors text-sm">
-                  Chairman Message
+                <Link to="/about/profile" className="text-gray-400 hover:text-yellow-500 transition-colors text-sm">
+                  Company Profile
                 </Link>
               </li>
               <li>

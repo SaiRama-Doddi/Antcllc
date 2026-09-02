@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import ChairmanMessage from './pages/about/ChairmanMessage';
 import Profile from './pages/about/Profile';
 import OurVision from './pages/about/OurVision';
 import Management from './pages/about/Management';
@@ -28,7 +27,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about/chairman-message" element={<ChairmanMessage />} />
           <Route path="/about/profile" element={<Profile />} />
           <Route path="/about/our-vision" element={<OurVision />} />
           <Route path="/about/management" element={<Management />} />
