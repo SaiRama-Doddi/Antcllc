@@ -1,6 +1,6 @@
 import Sidebar from '../../components/Sidebar';
 import { navigationItems } from '../../types/navigation';
-import { CheckCircle, Building2, Calendar, UserCheck, Layers, ChevronDown, ChevronUp } from 'lucide-react';
+import { CheckCircle, Building2, Layers, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 
